@@ -1,0 +1,35 @@
+// compass settings
+// legacy support
+$legacy-support-for-ie: false;
+$legacy-support-for-mozilla: false;
+$experimental-support-for-opera: false;
+
+
+// vendor prefixes
+$support-for-original-webkit-gradients: false;
+$experimental-support-for-khtml: false;
+
+
+// global variables
+
+$base-color: #ccc;
+$base-second-color: #000;
+$base-inverse-color: #fff;
+$base-accent-color: #eb5600;
+$base-background: #fff;
+$base-second-background: #f2f2f2;
+$base-link-color: #000;
+$base-link-hover-color: #000;
+$base-link-active-color: #000;
+$base-link-visited-color: #800080;
+$base-link-focus-color: #ff0000;
+
+
+$default-transition-property: all;
+$default-transition-duration: 1s;
+$default-transition-function: false;
+$default-transition-delay: false;
+
+$base-font: 14px/1.6 Arial, Helvetica, sans-serif;
+$title-font-family: 'Nova Round', cursive, Arial, Helvetica, sans-serif;
+

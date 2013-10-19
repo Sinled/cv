@@ -1,0 +1,21 @@
+.section {
+	@extend %clearfix;
+	padding: 30px;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 30%;
+		right: 0;
+		height: 2px;
+		background: $base-second-background;
+	}
+}
+
+.section__header {
+	float: left;
+	width: 40%;
+	margin: 0 30px 0 0;
+}

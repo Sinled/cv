@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% block head %}
+  <meta charset="UTF-8">
+  {% block viewport %}{% endblock %}
+  <link href='http://fonts.googleapis.com/css?family=Nova+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/styles/main.css">
+  <title>CV - Dovgan Dmytro</title>
+  {% endblock %}
+</head>
+<body>
+  <div class="wrapper">
+    <article class="cv-page">
+      <header class="cv-header">
+        <a href="#" class="cv-avatar">
+          <img src="/static/images/ava.jpg" alt="">
+        </a>
+        <div class="cv-header__text">
+          <h1 class="page-title">Dovgan Dmytron</h1>
+          <strong class="cv-header__text__caption">Frontend developer</strong>
+        </div>
+      </header>
+      <main class="content">
+        <section class="section">
+          <header class="section__header">
+            <h1 class="section__title"></h1>
+          </header>
+        </section>
+      </main>
+    </article>
+  </div>
+
+  <script type="text/javascript" src="/static/scripts/main.js"></script>
+
+  {# 
+    <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/2321955/Minihosting/dist/html-inspector.js"></script>
+    <script> HTMLInspector.inspect() </script>
+  #}
+
+</body>
+</html>

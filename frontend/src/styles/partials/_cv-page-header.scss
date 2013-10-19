@@ -1,0 +1,34 @@
+.cv-page__header {
+	@extend %clearfix;
+	background: $base-second-background;
+	padding: 30px 20px 30px 70px;
+}
+
+.cv-avatar {
+	@include box-sizing(border-box);
+	float: left;
+	width: 140px;
+	margin: 0 20px 0 0;
+	border: 1px solid $base-color;
+	padding: 8px;
+	background: $base-background;
+
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.cv-header__text {
+	overflow: hidden;
+	padding: 20px 0 0;
+}
+
+.cv-header__text__caption {
+	@extend %page-sub-title;
+}
+
+.page-title {
+	@extend %page-title;
+}
